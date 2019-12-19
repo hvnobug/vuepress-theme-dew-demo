@@ -1,0 +1,16 @@
+logs
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+node_modules
+.idea
+.DS_Store
+dist
+yarn.lock
+package-lock.json

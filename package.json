@@ -1,0 +1,43 @@
+{
+  "name": "dew-demo",
+  "version": "1.0.0",
+  "keywords": [
+    "vuepress",
+    "hvnobug",
+    "resume",
+    "dew",
+    "demo"
+  ],
+  "private": false,
+  "description": "📺 Dew vuepress theme demo",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "build-with-resume": "vuepress build docs && gulp pdf",
+    "resume-dev": "gulp dev",
+    "resume-build": "gulp pdf",
+    "deploy": "sh ./deploy.sh"
+  },
+  "author": "hvnobug",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^4.0.2",
+    "puppeteer": "^2.0.0",
+    "rimraf-promise": "^2.0.0",
+    "vuepress": "^1.2.0",
+    "vuepress-theme-dew": "^1.0.1"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.4",
+    "vuepress-plugin-code-switcher": "^1.0.3",
+    "vuepress-plugin-comment": "^0.7.2",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-global-toc": "^1.0.1",
+    "vuepress-plugin-img-lazy": "^1.0.1",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-plugin-table-of-contents": "^1.1.4"
+  }
+}
