@@ -47,7 +47,7 @@ npm run resume-build
 yarn run resume-build
 ```
 
-> Build vuepress and resume apge
+> Build vuepress and resume page
 
 ```bash
 npm run build-with-resume
